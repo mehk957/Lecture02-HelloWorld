@@ -44,14 +44,7 @@ public class MainActivity extends AppCompatActivity {
         btn_inc.setOnClickListener(listener);
         Button btn_dec = findViewById(R.id.btn2);
         btn_dec.setOnClickListener(declistener);
-        String message = getString(android.R.string.dialog_alert_title);
 
-//        AlertDialog ad = new AlertDialog.Builder(this)
-//                .setMessage(R.string.message)
-//                .setTitle(getString(android.R.string.dialog_alert_title))
-//                .create();
-//        ad.show();
-        Toast.makeText(this,"this is a string",Toast.LENGTH_LONG).show();
 
 
     }
